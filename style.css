@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    color: darkred;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#terminal {
+    width: 80%;
+    height: 80%;
+    border: 1px solid darkred;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#output {
+    white-space: pre-wrap;
+}
+
+#input {
+    width: 100%;
+    background-color: black;
+    border: none;
+    color: darkred;
+    font-size: 1.2em;
+    outline: none;
+    caret-color: darkred;
+}
+
+#cleiton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: darkred;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: none; /* Inicialmente oculto */
+}
+
+.hidden {
+    display: none;
+}
